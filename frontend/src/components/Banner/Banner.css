@@ -1,0 +1,189 @@
+.banner-container{
+    margin-top: 50px;
+    width: 92%;
+    height: 400px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin:0  4%;
+
+}
+.banner-container img{
+    width: 100%;
+    height:100%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-contents{
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.inner-head1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.inner-head1 p{
+    font-size: 17px;
+}
+.inner-head2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.inner-head2 span{
+    font-size: 25px;
+    color: red;
+    font-weight: 600;
+    
+}
+.timmer-box{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+    text-align: center;
+}
+.timmer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.timmer span{
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.num-days{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+    color: white;
+    background-color: purple;
+    
+   
+    border-radius: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+    cursor: pointer;
+}
+.shop-button{
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.shop-button button{
+    width: 150px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    border-color: purple;
+    color: purple;
+    background-color: transparent;
+    transition: 0.3s ease-in;
+}
+.shop-button button:hover{
+    background-color: purple;
+    color: white;
+}
+
+@media (max-width:768px){
+    .banner-container{
+        margin-top: 20px;
+        width: 100%;
+        height: 200px;
+    }
+    .banner-contents{
+        margin-top: 5px;
+    }
+    .inner-head1{
+        margin-bottom: 2px;
+        font-size: 9px;
+    }
+    .inner-head1 p{
+        font-size: 9px;
+    }
+    .inner-head2{
+        font-size: 8px;
+        margin-bottom: 5px;
+    }
+    .inner-head2 span{
+        font-size: 18px;
+        color: red;
+        font-weight: 600;
+    }
+    .timmer-box{
+        gap: 2px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .timmer{
+        gap: 2px;
+    }
+   
+    .num-days{
+        font-size: 12px;
+        height: 20px;
+        width: 20px;
+        padding: 2px;
+        border-radius: 2px;
+    }
+    .timmer-box h4{
+        font-size: 12px;
+    }
+    .inner-head2 span{
+        font-size: 15px;
+        color: red;
+        font-weight: 500;
+    }
+    .box p{
+        font-size: 9px;
+    }
+    .timmer span{
+        margin-bottom: 18px;
+    }
+    .inner-head1{
+        margin-bottom: 10px;
+    }
+    .shop-button button{
+        width: 80px;
+        height: 25px;
+        
+        border-radius: 2px;
+        padding: 2px 10px;
+        font-size: 10px;
+        font-weight: 500;
+        border-color: purple;
+        color: purple;
+        background-color: transparent;
+        transition: 0.3s ease-in;
+    }
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+
+
+.banner2-container {
+    width: 94%;
+    height: 300px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 20px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .banner2-container img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .banner2-container .flat {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    z-index: 1;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    transform: rotate(-20deg);
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 25px;
+  }
+  
+  .sale .first-sale{
+    position: absolute;
+    top: 70px;
+    left: 18%;
+    font-size: 100px;
+    z-index: 1;
+    color: #fff;
+    font-size: 50px;
+    /* line-height: 40px; */
+    transform: rotate(-17deg);
+    letter-spacing: 8px;
+    -webkit-text-stroke: 2px #ff8000; 
+   }
+   .sale .inner-sale{
+    position: absolute;
+    top: 120px;
+    left: 20%;
+    z-index: 1;
+    color: #fff;
+    font-size: 50px;
+    /* line-height: 40px; */
+    transform: rotate(-17deg);
+    letter-spacing: 8px;
+    -webkit-text-stroke: 2px #ff8000; 
+   }
+  
+  .fashion {
+    position: absolute;
+    top:40%;
+    left: 15%;
+    z-index: 1;
+    color:black;
+    font-size: 22px;
+    letter-spacing: 0.2rem;
+  }
+  
+  .shop-now {
+    position: absolute;
+    bottom: 16%;
+    left: 36%;
+    z-index: 1;
+    padding: 10px 40px;
+    background-color: white;
+    color: brown;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius:2px;
+    transform: rotate(-7deg);
+    transition: 0.3s ease;
+  }
+  .shop-now:hover{
+    background-color: orange;
+    color: white;
+  }
